@@ -1,0 +1,76 @@
+﻿@EventAPI_HostAddress = https://localhost:7093
+
+
+POST {{EventAPI_HostAddress}}/events
+Content-Type: application/json
+
+{
+  "Title":"Dykning",
+  "Location":"Balka",
+  "Price":150,
+  "Description":"blablabla"
+}
+
+###
+
+
+GET {{EventAPI_HostAddress}}/events
+
+###
+
+
+GET {{EventAPI_HostAddress}}/events/2
+
+###
+
+PUT {{EventAPI_HostAddress}}/events/1
+Content-Type: application/json
+
+{
+  "Title":"DykningNy",
+  "Location":"Nybalka",
+  "Price":40,
+  "Description":"blablabla"
+}
+
+###
+
+DELETE {{EventAPI_HostAddress}}/events/1
+
+###
+
+POST {{EventAPI_HostAddress}}/users
+Content-Type: application/json
+
+{
+  "Name":"Marcus"
+}
+
+###
+
+GET {{EventAPI_HostAddress}}/users
+
+###
+
+GET {{EventAPI_HostAddress}}/users/1
+
+###
+
+
+
+
+
+POST {{EventAPI_HostAddress}}/bookings
+Content-Type: application/json
+
+{
+  "EventId":,
+  "UserId":1,
+  "BookingDate":"2024-09-10T14:30:00"
+}
+
+###
+
+GET {{EventAPI_HostAddress}}/bookings
+
+###
