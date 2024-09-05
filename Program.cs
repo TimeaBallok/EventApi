@@ -2,25 +2,33 @@ using EventAPI.Features.Common.Behaviors;
 using EventAPI.Features.Common.Middleware;
 using EventAPI.Features.Events;
 using EventAPI.Features.Events.Create;
+using EventAPI.Features.Events.Get_All;
 using EventAPI.Features.Events.Update;
+using EventAPI.Features.Users;
+using EventAPI.Features.Users.Create;
+using EventAPI.Features.Users.Update;
 using EventAPI.Infrastructure.Database;
 using EventAPI.Infrastructure.Minimal_API;
-using EventAPI.model;
-using EventAPI.validation;
 using FluentValidation;
 using Mapster;
 using MapsterMapper;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
+using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
 //builder.Services.AddDbContext<EventDB>(opt => opt.UseInMemoryDatabase("EventList"));
 builder.Services.AddDbContext<EventDB>(opt => opt.UseSqlServer(builder.Configuration.GetConnectionString("EventDbConnection")));
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
+builder.Services.AddCors();
+
 builder.Services.AddScoped<IValidator<CreateEvent>, CreateEventValidator>();
 builder.Services.AddScoped<IValidator<GetEventById>, GetEventByIdValidator>();
 builder.Services.AddScoped<IValidator<UpdateEvent>, UpdateEventValidator>();
-builder.Services.AddScoped<IValidator<User>, UserValidator>();
+builder.Services.AddScoped<IValidator<CreateUser>, CreateUserValidator>();
+builder.Services.AddScoped<IValidator<GetUserById>, GetUserByIdValidator>();
+builder.Services.AddScoped<IValidator<UpdateUser>, UpdateUserValidator>();
+
 builder.Services.AddEndpoints(typeof(Program).Assembly);
 var config = TypeAdapterConfig.GlobalSettings;
 builder.Services.AddSingleton(config);
@@ -31,12 +39,28 @@ builder.Services.AddMediatR(config =>
     config.AddBehavior(typeof(IPipelineBehavior<,>), typeof(ValidationBehavior<,>));
 });
 
+builder.Services.ConfigureHttpJsonOptions(options =>
+{
+    options.SerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles;
+});
+
+builder.Services
+    .AddGraphQLServer()
+    .AddEventAPITypes()
+    .AddSorting()
+    .AddFiltering();
+    
 
 var app = builder.Build();
+
+app.UseCors(c => c.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin());
 
 app.UseMiddleware<ValidationExceptionHandlingMiddleware>();
 
 app.MapEndpoints();
+
+app.MapGraphQL("/graphql");
+
 
 //app.MapGet("/events", async (EventDB db) =>
 //    await db.Events.ToListAsync());

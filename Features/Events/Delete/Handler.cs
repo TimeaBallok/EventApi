@@ -6,6 +6,15 @@ using MediatR;
 
 namespace EventAPI.Features.Events.Delete
 {
+    [MutationType]
+    public class EventMutation
+    {
+        public async Task<Event?> DeleteEventMutation(int id, [Service] ISender sender)
+        {
+            var result = await sender.Send(new DeleteEvent(id));
+            return result;
+        }
+    }
     public class REST : IEndpoint
     {
         public void MapEndpoint(IEndpointRouteBuilder app)

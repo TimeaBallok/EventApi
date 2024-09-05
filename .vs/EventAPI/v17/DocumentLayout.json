@@ -3,36 +3,20 @@
   "WorkspaceRootPath": "C:\\Projekter\\EventAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E819A33C-2005-4E1D-8E33-0082A35BF8D4}|EventAPI.csproj|c:\\projekter\\eventapi\\features\\events\\delete\\handler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E819A33C-2005-4E1D-8E33-0082A35BF8D4}|EventAPI.csproj|solutionrelative:features\\events\\delete\\handler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E819A33C-2005-4E1D-8E33-0082A35BF8D4}|EventAPI.csproj|c:\\projekter\\eventapi\\features\\events\\get all\\handler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E819A33C-2005-4E1D-8E33-0082A35BF8D4}|EventAPI.csproj|solutionrelative:features\\events\\get all\\handler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E819A33C-2005-4E1D-8E33-0082A35BF8D4}|EventAPI.csproj|c:\\projekter\\eventapi\\features\\events\\get all\\inputmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E819A33C-2005-4E1D-8E33-0082A35BF8D4}|EventAPI.csproj|solutionrelative:features\\events\\get all\\inputmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E819A33C-2005-4E1D-8E33-0082A35BF8D4}|EventAPI.csproj|c:\\projekter\\eventapi\\infrastructure\\database\\eventdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E819A33C-2005-4E1D-8E33-0082A35BF8D4}|EventAPI.csproj|solutionrelative:infrastructure\\database\\eventdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E819A33C-2005-4E1D-8E33-0082A35BF8D4}|EventAPI.csproj|c:\\projekter\\eventapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E819A33C-2005-4E1D-8E33-0082A35BF8D4}|EventAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E819A33C-2005-4E1D-8E33-0082A35BF8D4}|EventAPI.csproj|c:\\projekter\\eventapi\\features\\events\\delete\\inputmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E819A33C-2005-4E1D-8E33-0082A35BF8D4}|EventAPI.csproj|solutionrelative:features\\events\\delete\\inputmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E819A33C-2005-4E1D-8E33-0082A35BF8D4}|EventAPI.csproj|c:\\projekter\\eventapi\\features\\events\\get by id\\handler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E819A33C-2005-4E1D-8E33-0082A35BF8D4}|EventAPI.csproj|solutionrelative:features\\events\\get by id\\handler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E819A33C-2005-4E1D-8E33-0082A35BF8D4}|EventAPI.csproj|c:\\projekter\\eventapi\\features\\events\\update\\handler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E819A33C-2005-4E1D-8E33-0082A35BF8D4}|EventAPI.csproj|solutionrelative:features\\events\\update\\handler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E819A33C-2005-4E1D-8E33-0082A35BF8D4}|EventAPI.csproj|c:\\projekter\\eventapi\\features\\events\\create\\handler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E819A33C-2005-4E1D-8E33-0082A35BF8D4}|EventAPI.csproj|solutionrelative:features\\events\\create\\handler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E819A33C-2005-4E1D-8E33-0082A35BF8D4}|EventAPI.csproj|c:\\projekter\\eventapi\\features\\events\\create\\inputmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E819A33C-2005-4E1D-8E33-0082A35BF8D4}|EventAPI.csproj|solutionrelative:features\\events\\create\\inputmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E819A33C-2005-4E1D-8E33-0082A35BF8D4}|EventAPI.csproj|c:\\projekter\\eventapi\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E819A33C-2005-4E1D-8E33-0082A35BF8D4}|EventAPI.csproj|solutionrelative:models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -55,105 +39,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Projekter\\EventAPI\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Projekter\\EventAPI\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAD4AAAAAAAAAAAAAAFoAAAA9AAAA",
+              "Title": "Inputmodel.cs",
+              "DocumentMoniker": "C:\\Projekter\\EventAPI\\Features\\Events\\Get All\\Inputmodel.cs",
+              "RelativeDocumentMoniker": "Features\\Events\\Get All\\Inputmodel.cs",
+              "ToolTip": "C:\\Projekter\\EventAPI\\Features\\Events\\Get All\\Inputmodel.cs",
+              "RelativeToolTip": "Features\\Events\\Get All\\Inputmodel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-03T12:19:31.969Z",
+              "WhenOpened": "2024-09-05T12:14:44.765Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Inputmodel.cs",
-              "DocumentMoniker": "C:\\Projekter\\EventAPI\\Features\\Events\\Delete\\Inputmodel.cs",
-              "RelativeDocumentMoniker": "Features\\Events\\Delete\\Inputmodel.cs",
-              "ToolTip": "C:\\Projekter\\EventAPI\\Features\\Events\\Delete\\Inputmodel.cs",
-              "RelativeToolTip": "Features\\Events\\Delete\\Inputmodel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAA9AAAA",
+              "Title": "EventDB.cs",
+              "DocumentMoniker": "C:\\Projekter\\EventAPI\\Infrastructure\\Database\\EventDB.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Database\\EventDB.cs",
+              "ToolTip": "C:\\Projekter\\EventAPI\\Infrastructure\\Database\\EventDB.cs",
+              "RelativeToolTip": "Infrastructure\\Database\\EventDB.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA8AAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-03T13:11:08.665Z",
+              "WhenOpened": "2024-09-05T11:44:39.8Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Handler.cs",
-              "DocumentMoniker": "C:\\Projekter\\EventAPI\\Features\\Events\\Delete\\Handler.cs",
-              "RelativeDocumentMoniker": "Features\\Events\\Delete\\Handler.cs",
-              "ToolTip": "C:\\Projekter\\EventAPI\\Features\\Events\\Delete\\Handler.cs",
-              "RelativeToolTip": "Features\\Events\\Delete\\Handler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAFAAAA",
+              "DocumentMoniker": "C:\\Projekter\\EventAPI\\Features\\Events\\Get All\\Handler.cs",
+              "RelativeDocumentMoniker": "Features\\Events\\Get All\\Handler.cs",
+              "ToolTip": "C:\\Projekter\\EventAPI\\Features\\Events\\Get All\\Handler.cs",
+              "RelativeToolTip": "Features\\Events\\Get All\\Handler.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAgwC4AAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-03T13:10:39.901Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Handler.cs",
-              "DocumentMoniker": "C:\\Projekter\\EventAPI\\Features\\Events\\Update\\Handler.cs",
-              "RelativeDocumentMoniker": "Features\\Events\\Update\\Handler.cs",
-              "ToolTip": "C:\\Projekter\\EventAPI\\Features\\Events\\Update\\Handler.cs",
-              "RelativeToolTip": "Features\\Events\\Update\\Handler.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAAA9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-03T12:12:48.407Z",
+              "WhenOpened": "2024-09-04T12:23:20.19Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Handler.cs",
-              "DocumentMoniker": "C:\\Projekter\\EventAPI\\Features\\Events\\Get By Id\\Handler.cs",
-              "RelativeDocumentMoniker": "Features\\Events\\Get By Id\\Handler.cs",
-              "ToolTip": "C:\\Projekter\\EventAPI\\Features\\Events\\Get By Id\\Handler.cs",
-              "RelativeToolTip": "Features\\Events\\Get By Id\\Handler.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAABDAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Projekter\\EventAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Projekter\\EventAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACoAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-03T12:16:31.333Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Handler.cs",
-              "DocumentMoniker": "C:\\Projekter\\EventAPI\\Features\\Events\\Create\\Handler.cs",
-              "RelativeDocumentMoniker": "Features\\Events\\Create\\Handler.cs",
-              "ToolTip": "C:\\Projekter\\EventAPI\\Features\\Events\\Create\\Handler.cs",
-              "RelativeToolTip": "Features\\Events\\Create\\Handler.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAgAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-03T12:13:56.325Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Inputmodel.cs",
-              "DocumentMoniker": "C:\\Projekter\\EventAPI\\Features\\Events\\Create\\Inputmodel.cs",
-              "RelativeDocumentMoniker": "Features\\Events\\Create\\Inputmodel.cs",
-              "ToolTip": "C:\\Projekter\\EventAPI\\Features\\Events\\Create\\Inputmodel.cs",
-              "RelativeToolTip": "Features\\Events\\Create\\Inputmodel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAUAAABuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-03T08:30:23.987Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Event.cs",
-              "DocumentMoniker": "C:\\Projekter\\EventAPI\\Models\\Event.cs",
-              "RelativeDocumentMoniker": "Models\\Event.cs",
-              "ToolTip": "C:\\Projekter\\EventAPI\\Models\\Event.cs",
-              "RelativeToolTip": "Models\\Event.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-03T07:39:43.572Z",
+              "WhenOpened": "2024-09-04T06:20:45.399Z",
               "EditorCaption": ""
             }
           ]

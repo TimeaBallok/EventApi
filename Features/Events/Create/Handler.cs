@@ -6,6 +6,16 @@ using MediatR;
 
 namespace EventAPI.Features.Events.Create
 {
+    [MutationType]
+    public class EventMutation
+    {
+        public async Task<Event> CreateEventMutation(CreateEvent createEvent, [Service] ISender sender)
+        {
+            var newEvent = await sender.Send(createEvent);
+            return newEvent;
+        }
+    }
+
     public class REST : IEndpoint
     {
         public void MapEndpoint(IEndpointRouteBuilder app)

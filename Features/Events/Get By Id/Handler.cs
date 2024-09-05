@@ -1,4 +1,5 @@
 ﻿using EventAPI.Features.Events.Create;
+using EventAPI.Features.Events.Get_All;
 using EventAPI.Infrastructure.Database;
 using EventAPI.Infrastructure.Minimal_API;
 using EventAPI.model;
@@ -7,6 +8,15 @@ using MediatR;
 
 namespace EventAPI.Features.Events
 {
+    [QueryType]
+    public class EventQuery
+    {
+        public async Task<Event?> GetEventById(int id, [Service] ISender sender)
+        {
+            var result = await sender.Send(new GetEventById(id));
+            return result;
+        }
+    }
     public class REST : IEndpoint
     {
         public void MapEndpoint(IEndpointRouteBuilder app)

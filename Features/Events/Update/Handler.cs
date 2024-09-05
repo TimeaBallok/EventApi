@@ -7,6 +7,15 @@ using MediatR;
 
 namespace EventAPI.Features.Events.Update
 {
+    [MutationType]
+    public class EventMutation
+    {
+        public async Task<Event?> UpdateEventMutation(int id, UpdateEvent updatedEvent, [Service] ISender sender)
+        {
+            var result = await sender.Send(updatedEvent);
+            return result;
+        }
+    }
     public class REST : IEndpoint
     {
         public void MapEndpoint(IEndpointRouteBuilder app)

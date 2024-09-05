@@ -1,20 +1,52 @@
 {
   "version": 2,
-  "dgSpecHash": "2g9nKOlw7RA=",
+  "dgSpecHash": "9IJrWQdNEJE=",
   "success": true,
   "projectFilePath": "C:\\Projekter\\EventAPI\\EventAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tba\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\tba\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
+    "C:\\Users\\tba\\.nuget\\packages\\bananacakepop.middleware\\16.0.3\\bananacakepop.middleware.16.0.3.nupkg.sha512",
     "C:\\Users\\tba\\.nuget\\packages\\fluentvalidation\\11.9.2\\fluentvalidation.11.9.2.nupkg.sha512",
     "C:\\Users\\tba\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
     "C:\\Users\\tba\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
+    "C:\\Users\\tba\\.nuget\\packages\\greendonut\\13.9.11\\greendonut.13.9.11.nupkg.sha512",
+    "C:\\Users\\tba\\.nuget\\packages\\hotchocolate\\13.9.11\\hotchocolate.13.9.11.nupkg.sha512",
+    "C:\\Users\\tba\\.nuget\\packages\\hotchocolate.abstractions\\13.9.11\\hotchocolate.abstractions.13.9.11.nupkg.sha512",
+    "C:\\Users\\tba\\.nuget\\packages\\hotchocolate.aspnetcore\\13.9.11\\hotchocolate.aspnetcore.13.9.11.nupkg.sha512",
+    "C:\\Users\\tba\\.nuget\\packages\\hotchocolate.authorization\\13.9.11\\hotchocolate.authorization.13.9.11.nupkg.sha512",
+    "C:\\Users\\tba\\.nuget\\packages\\hotchocolate.data\\13.9.11\\hotchocolate.data.13.9.11.nupkg.sha512",
+    "C:\\Users\\tba\\.nuget\\packages\\hotchocolate.data.entityframework\\13.9.11\\hotchocolate.data.entityframework.13.9.11.nupkg.sha512",
+    "C:\\Users\\tba\\.nuget\\packages\\hotchocolate.execution\\13.9.11\\hotchocolate.execution.13.9.11.nupkg.sha512",
+    "C:\\Users\\tba\\.nuget\\packages\\hotchocolate.execution.abstractions\\13.9.11\\hotchocolate.execution.abstractions.13.9.11.nupkg.sha512",
+    "C:\\Users\\tba\\.nuget\\packages\\hotchocolate.fetching\\13.9.11\\hotchocolate.fetching.13.9.11.nupkg.sha512",
+    "C:\\Users\\tba\\.nuget\\packages\\hotchocolate.language\\13.9.11\\hotchocolate.language.13.9.11.nupkg.sha512",
+    "C:\\Users\\tba\\.nuget\\packages\\hotchocolate.language.syntaxtree\\13.9.11\\hotchocolate.language.syntaxtree.13.9.11.nupkg.sha512",
+    "C:\\Users\\tba\\.nuget\\packages\\hotchocolate.language.utf8\\13.9.11\\hotchocolate.language.utf8.13.9.11.nupkg.sha512",
+    "C:\\Users\\tba\\.nuget\\packages\\hotchocolate.language.visitors\\13.9.11\\hotchocolate.language.visitors.13.9.11.nupkg.sha512",
+    "C:\\Users\\tba\\.nuget\\packages\\hotchocolate.language.web\\13.9.11\\hotchocolate.language.web.13.9.11.nupkg.sha512",
+    "C:\\Users\\tba\\.nuget\\packages\\hotchocolate.subscriptions\\13.9.11\\hotchocolate.subscriptions.13.9.11.nupkg.sha512",
+    "C:\\Users\\tba\\.nuget\\packages\\hotchocolate.subscriptions.inmemory\\13.9.11\\hotchocolate.subscriptions.inmemory.13.9.11.nupkg.sha512",
+    "C:\\Users\\tba\\.nuget\\packages\\hotchocolate.transport.sockets\\13.9.11\\hotchocolate.transport.sockets.13.9.11.nupkg.sha512",
+    "C:\\Users\\tba\\.nuget\\packages\\hotchocolate.types\\13.9.11\\hotchocolate.types.13.9.11.nupkg.sha512",
+    "C:\\Users\\tba\\.nuget\\packages\\hotchocolate.types.analyzers\\13.9.11\\hotchocolate.types.analyzers.13.9.11.nupkg.sha512",
+    "C:\\Users\\tba\\.nuget\\packages\\hotchocolate.types.cursorpagination\\13.9.11\\hotchocolate.types.cursorpagination.13.9.11.nupkg.sha512",
+    "C:\\Users\\tba\\.nuget\\packages\\hotchocolate.types.mutations\\13.9.11\\hotchocolate.types.mutations.13.9.11.nupkg.sha512",
+    "C:\\Users\\tba\\.nuget\\packages\\hotchocolate.types.offsetpagination\\13.9.11\\hotchocolate.types.offsetpagination.13.9.11.nupkg.sha512",
+    "C:\\Users\\tba\\.nuget\\packages\\hotchocolate.types.scalars.upload\\13.9.11\\hotchocolate.types.scalars.upload.13.9.11.nupkg.sha512",
+    "C:\\Users\\tba\\.nuget\\packages\\hotchocolate.types.shared\\13.9.11\\hotchocolate.types.shared.13.9.11.nupkg.sha512",
+    "C:\\Users\\tba\\.nuget\\packages\\hotchocolate.utilities\\13.9.11\\hotchocolate.utilities.13.9.11.nupkg.sha512",
+    "C:\\Users\\tba\\.nuget\\packages\\hotchocolate.utilities.dependencyinjection\\13.9.11\\hotchocolate.utilities.dependencyinjection.13.9.11.nupkg.sha512",
+    "C:\\Users\\tba\\.nuget\\packages\\hotchocolate.validation\\13.9.11\\hotchocolate.validation.13.9.11.nupkg.sha512",
     "C:\\Users\\tba\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\tba\\.nuget\\packages\\mapster\\7.4.0\\mapster.7.4.0.nupkg.sha512",
     "C:\\Users\\tba\\.nuget\\packages\\mapster.core\\1.2.1\\mapster.core.1.2.1.nupkg.sha512",
     "C:\\Users\\tba\\.nuget\\packages\\mapster.dependencyinjection\\1.0.1\\mapster.dependencyinjection.1.0.1.nupkg.sha512",
     "C:\\Users\\tba\\.nuget\\packages\\mediatr\\12.4.0\\mediatr.12.4.0.nupkg.sha512",
     "C:\\Users\\tba\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\tba\\.nuget\\packages\\microsoft.aspnet.mvc\\5.3.0\\microsoft.aspnet.mvc.5.3.0.nupkg.sha512",
+    "C:\\Users\\tba\\.nuget\\packages\\microsoft.aspnet.razor\\3.3.0\\microsoft.aspnet.razor.3.3.0.nupkg.sha512",
+    "C:\\Users\\tba\\.nuget\\packages\\microsoft.aspnet.webpages\\3.3.0\\microsoft.aspnet.webpages.3.3.0.nupkg.sha512",
     "C:\\Users\\tba\\.nuget\\packages\\microsoft.aspnetcore.diagnostics.entityframeworkcore\\8.0.8\\microsoft.aspnetcore.diagnostics.entityframeworkcore.8.0.8.nupkg.sha512",
     "C:\\Users\\tba\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\tba\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.4\\microsoft.codeanalysis.analyzers.3.3.4.nupkg.sha512",
@@ -40,6 +72,7 @@
     "C:\\Users\\tba\\.nuget\\packages\\microsoft.extensions.dependencymodel\\8.0.1\\microsoft.extensions.dependencymodel.8.0.1.nupkg.sha512",
     "C:\\Users\\tba\\.nuget\\packages\\microsoft.extensions.logging\\8.0.0\\microsoft.extensions.logging.8.0.0.nupkg.sha512",
     "C:\\Users\\tba\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\tba\\.nuget\\packages\\microsoft.extensions.objectpool\\8.0.0\\microsoft.extensions.objectpool.8.0.0.nupkg.sha512",
     "C:\\Users\\tba\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
     "C:\\Users\\tba\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
     "C:\\Users\\tba\\.nuget\\packages\\microsoft.identity.client\\4.56.0\\microsoft.identity.client.4.56.0.nupkg.sha512",
@@ -53,10 +86,13 @@
     "C:\\Users\\tba\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\tba\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\tba\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
+    "C:\\Users\\tba\\.nuget\\packages\\microsoft.web.infrastructure\\1.0.0\\microsoft.web.infrastructure.1.0.0.nupkg.sha512",
     "C:\\Users\\tba\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\tba\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\tba\\.nuget\\packages\\oneof\\3.0.271\\oneof.3.0.271.nupkg.sha512",
     "C:\\Users\\tba\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",
-    "C:\\Users\\tba\\.nuget\\packages\\system.collections.immutable\\7.0.0\\system.collections.immutable.7.0.0.nupkg.sha512",
+    "C:\\Users\\tba\\.nuget\\packages\\system.collections.immutable\\8.0.0\\system.collections.immutable.8.0.0.nupkg.sha512",
+    "C:\\Users\\tba\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "C:\\Users\\tba\\.nuget\\packages\\system.composition\\6.0.0\\system.composition.6.0.0.nupkg.sha512",
     "C:\\Users\\tba\\.nuget\\packages\\system.composition.attributedmodel\\6.0.0\\system.composition.attributedmodel.6.0.0.nupkg.sha512",
     "C:\\Users\\tba\\.nuget\\packages\\system.composition.convention\\6.0.0\\system.composition.convention.6.0.0.nupkg.sha512",
@@ -64,12 +100,13 @@
     "C:\\Users\\tba\\.nuget\\packages\\system.composition.runtime\\6.0.0\\system.composition.runtime.6.0.0.nupkg.sha512",
     "C:\\Users\\tba\\.nuget\\packages\\system.composition.typedparts\\6.0.0\\system.composition.typedparts.6.0.0.nupkg.sha512",
     "C:\\Users\\tba\\.nuget\\packages\\system.configuration.configurationmanager\\6.0.1\\system.configuration.configurationmanager.6.0.1.nupkg.sha512",
-    "C:\\Users\\tba\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.1\\system.diagnostics.diagnosticsource.6.0.1.nupkg.sha512",
+    "C:\\Users\\tba\\.nuget\\packages\\system.diagnostics.diagnosticsource\\8.0.0\\system.diagnostics.diagnosticsource.8.0.0.nupkg.sha512",
     "C:\\Users\\tba\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512",
     "C:\\Users\\tba\\.nuget\\packages\\system.formats.asn1\\5.0.0\\system.formats.asn1.5.0.0.nupkg.sha512",
     "C:\\Users\\tba\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.35.0\\system.identitymodel.tokens.jwt.6.35.0.nupkg.sha512",
     "C:\\Users\\tba\\.nuget\\packages\\system.io.filesystem.accesscontrol\\5.0.0\\system.io.filesystem.accesscontrol.5.0.0.nupkg.sha512",
-    "C:\\Users\\tba\\.nuget\\packages\\system.io.pipelines\\6.0.3\\system.io.pipelines.6.0.3.nupkg.sha512",
+    "C:\\Users\\tba\\.nuget\\packages\\system.io.hashing\\7.0.0\\system.io.hashing.7.0.0.nupkg.sha512",
+    "C:\\Users\\tba\\.nuget\\packages\\system.io.pipelines\\8.0.0\\system.io.pipelines.8.0.0.nupkg.sha512",
     "C:\\Users\\tba\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
     "C:\\Users\\tba\\.nuget\\packages\\system.memory.data\\1.0.2\\system.memory.data.1.0.2.nupkg.sha512",
     "C:\\Users\\tba\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
@@ -86,9 +123,10 @@
     "C:\\Users\\tba\\.nuget\\packages\\system.text.encoding.codepages\\6.0.0\\system.text.encoding.codepages.6.0.0.nupkg.sha512",
     "C:\\Users\\tba\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
     "C:\\Users\\tba\\.nuget\\packages\\system.text.json\\8.0.4\\system.text.json.8.0.4.nupkg.sha512",
-    "C:\\Users\\tba\\.nuget\\packages\\system.threading.channels\\6.0.0\\system.threading.channels.6.0.0.nupkg.sha512",
+    "C:\\Users\\tba\\.nuget\\packages\\system.threading.channels\\8.0.0\\system.threading.channels.8.0.0.nupkg.sha512",
     "C:\\Users\\tba\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
-    "C:\\Users\\tba\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
+    "C:\\Users\\tba\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
+    "C:\\Users\\tba\\.nuget\\packages\\yarp.reverseproxy\\2.1.0\\yarp.reverseproxy.2.1.0.nupkg.sha512"
   ],
   "logs": [
     {
@@ -117,6 +155,46 @@
       "warningLevel": 1,
       "message": "Detected package version outside of dependency constraint: Microsoft.CodeAnalysis.Workspaces.Common 4.5.0 requires Microsoft.CodeAnalysis.Common (= 4.5.0) but version Microsoft.CodeAnalysis.Common 4.7.0 was resolved.",
       "libraryId": "Microsoft.CodeAnalysis.Common",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.AspNet.Mvc 5.3.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.AspNet.Mvc",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.AspNet.Razor 3.3.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.AspNet.Razor",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.AspNet.WebPages 3.3.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.AspNet.WebPages",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.Web.Infrastructure 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.Web.Infrastructure",
       "targetGraphs": [
         "net8.0"
       ]
